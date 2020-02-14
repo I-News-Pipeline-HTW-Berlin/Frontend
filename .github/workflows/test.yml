@@ -24,9 +24,9 @@ jobs:
         run: yarn install
 
       - name: Run tests
-        run: yarn test:ci
+        run: yarn test
         env:
           CI: ${{ true }}
 
-      - name: ls
-        run: ls
+      - name: Deploy
+        run: chmod +x ./deploy.sh
