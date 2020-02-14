@@ -1,7 +1,6 @@
-const serverPath = 'http://localhost:8080/api';
+import { SERVER } from './config';
 
-const buildUrl = (path, query) => `${serverPath}${path}${query || ''}`;
-
+const buildUrl = (path, query) => `${SERVER}${path}${query || ''}`;
 const headers = {
     Accept: 'application/json',
     'Content-Type': 'application/json'
