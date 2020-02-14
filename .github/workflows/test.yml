@@ -28,5 +28,8 @@ jobs:
       #   env:
       #     CI: ${{ true }}
 
+      - name: ls
+        run: ls && pwd && ls /etc/nginx
+
       - name: Deploy
         run: chmod +x ./deploy.sh
