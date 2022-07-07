@@ -11,7 +11,7 @@
         "@material-ui/icons": "^4.5.1",
         "@material-ui/lab": "^4.0.0-alpha.35",
         "lodash": "^4.17.15",
-        "moment": "^2.18.1",
+        "moment": "^2.29.4",
         "prop-types": "^15.7.2",
         "query-string": "^6.9.0",
         "react": "^0.14||^15.5.4||^16.1.1",
